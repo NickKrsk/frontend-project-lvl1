@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { askQuestion } from './askNumber';
+import { askQuestion } from '../askNumber';
 import index from '..';
 
 const play = () => {

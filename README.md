@@ -5,4 +5,9 @@
 <a href="https://travis-ci.com/NickKrsk/frontend-project-lvl1.svg?branch=master">
  <img src="https://travis-ci.com/NickKrsk/frontend-project-lvl1.svg?branch=master"/></a>
 
-Установка пакета: npm link 
+Установка пакета: 
+npm link 
+make publish
+
+
+https://asciinema.org/a/0yRrHwSd0FAzBz1BldTorVWfV
