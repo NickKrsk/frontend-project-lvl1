@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import index from '..';
-index();
+import { hello } from '..';
+hello();
