@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { game, getRandom, getRandomInt } from '../gameFlow';
 import { cons, car, cdr, toString } from '@hexlet/pairs';
 
