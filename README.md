@@ -6,8 +6,13 @@
  <img src="https://travis-ci.com/NickKrsk/frontend-project-lvl1.svg?branch=master"/></a>
 
 Установка пакета: 
-npm link 
 make publish
+npm link 
 
 
+Brain even:
 https://asciinema.org/a/0yRrHwSd0FAzBz1BldTorVWfV
+
+
+Brain progression:
+https://asciinema.org/a/3fnRo0aUnYTdNr2tyBGt2qbgd

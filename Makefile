@@ -8,6 +8,8 @@ start3:
 	npx babel-node src/games/brain-calc.js
 start4:
 	npx babel-node src/games/brain-gcd.js
+start5:
+	npx babel-node src/games/brain-progression.js
 publish:
 	npm publish --dry-run
 lint:
