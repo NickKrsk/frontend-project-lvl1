@@ -9,10 +9,14 @@
 make publish
 npm link 
 
-
 Brain even:
 https://asciinema.org/a/0yRrHwSd0FAzBz1BldTorVWfV
 
+Brain calc:
+https://asciinema.org/a/aKSBBwPZgAcOAkiMsT1FZhQcI
+
+Brain gcd:
+https://asciinema.org/a/WHA7IMxHIbKMdJpcpeXm8NHdu
 
 Brain progression:
 https://asciinema.org/a/3fnRo0aUnYTdNr2tyBGt2qbgd

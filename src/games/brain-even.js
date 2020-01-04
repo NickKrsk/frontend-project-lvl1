@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
-
-import { game, getRandom } from '../gameFlow';
-//import { hello } from '..';
+import { game } from '../gameFlow';
+import { getRandom } from '../math';
 
 const play = () => {
 	const question = () => {

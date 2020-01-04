@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 import { cons } from '@hexlet/pairs';
-import { game, getRandom } from '../gameFlow';
+import { game } from '../gameFlow';
+import { getRandom } from '../math';
 
 const  isPrime = (num) => {
 	if (num < 2) {

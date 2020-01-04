@@ -1,11 +1,7 @@
 #!/usr/bin/env node
-import { game, getRandom, getRandomInt } from '../gameFlow';
-import { cons, car, cdr, toString } from '@hexlet/pairs';
-
-const pair = cons(3, 5);
-car(pair); // 3
-cdr(pair); // 5
-toString(pair); // (3, 5)
+import { game } from '../gameFlow';
+import { getRandom, getRandomInt } from '../math';
+import { cons, car, cdr } from '@hexlet/pairs';
 
 const operChoice = () => {
     const num = getRandomInt(3);
@@ -25,7 +21,6 @@ const play = () => {
         const b = getRandom();
         const oper = operChoice();
         const expression = cons(a, cons(b, oper));
-        //console.log(toString(expression));
         const view = `${a} ${oper} ${b}`;
         return cons(expression, view);
     }
@@ -43,8 +38,7 @@ const play = () => {
                 return a - b;
         }
     }
-	//const answer = (num) => !(num % 2) ? 'yes' : 'no';
-    game(question, answer, 'What is the result of the expression?');
+  game(question, answer, 'What is the result of the expression?');
 }
 
 play();

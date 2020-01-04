@@ -2,8 +2,8 @@
 
 import { cons, car, cdr } from '@hexlet/pairs';
 
-import { game, getRandom, getRandomInt } from '../gameFlow';
-//import { hello } from '..';
+import { game } from '../gameFlow';
+import { getRandom, getRandomInt } from '../math';
 
 
 const play = () => {

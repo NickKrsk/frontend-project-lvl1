@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 import { cons, car, cdr } from '@hexlet/pairs';
-
-import { game, getRandom } from '../gameFlow';
-//import { hello } from '..';
+import { getRandom } from '../math';
+import { game } from '../gameFlow';
 
 const nod = (n, m) => {
     if(m > 0) { 
