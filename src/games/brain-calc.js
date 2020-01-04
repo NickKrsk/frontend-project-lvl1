@@ -11,16 +11,11 @@ const operChoice = () => {
     const num = getRandomInt(3);
     switch(num) {
         case 0:  
-            return "*";
-            break;
-      
+            return "*";      
         case 1:  
             return "+";
-            break;
-      
         case 2:
             return "-";
-            break;
     }
 }
 
@@ -42,15 +37,10 @@ const play = () => {
         switch(oper) {
             case "*":  
                 return a * b;
-                break;
-          
             case "+":  
-                return a + b;
-                break;
-          
+                return a + b;                   
             case "-":
                 return a - b;
-                break;
         }
     }
 	//const answer = (num) => !(num % 2) ? 'yes' : 'no';
