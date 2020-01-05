@@ -9,16 +9,16 @@
 make link 
 
 Brain even:
-https://asciinema.org/a/0yRrHwSd0FAzBz1BldTorVWfV
+https://asciinema.org/a/TPXxVQUf5qHnyY0bHpaaD0nq6
 
 Brain calc:
-https://asciinema.org/a/aKSBBwPZgAcOAkiMsT1FZhQcI
+https://asciinema.org/a/D2M8ybwi42S4qnZnBNsgNsbOD
 
 Brain gcd:
-https://asciinema.org/a/WHA7IMxHIbKMdJpcpeXm8NHdu
+https://asciinema.org/a/YfrVBOhipvlDbuj1AeIjarXL8
 
 Brain progression:
-https://asciinema.org/a/3fnRo0aUnYTdNr2tyBGt2qbgd
+https://asciinema.org/a/hFDtVYiHAOCa0XBfZHYDyexrv
 
 Brain prime:
- https://asciinema.org/a/eRX95og2VxPRPAYrEIndxnRY5
+ https://asciinema.org/a/Zv3zQRR8WOE7angGam86gEZPd

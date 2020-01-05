@@ -1,7 +1,11 @@
 {
   "name": "frontend-project-lvl1-nick",
   "version": "1.0.9",
-  "description": "",
+  "description": "Набор мини-игр, запускаемых из консоли",
+  "keywords": [
+    "brain-games",
+    "hexlet"
+  ],
   "main": "index.js",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
@@ -23,7 +27,7 @@
     "type": "git",
     "url": "git+https://github.com/NickKrsk/frontend-project-lvl1.git"
   },
-  "author": "",
+  "author": "NickKrsk",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NickKrsk/frontend-project-lvl1/issues"
