@@ -25,8 +25,7 @@ const play = () => {
             }            
             view +=  ` ${a}`;
         }
-        //console.log(`a1 = ${a1} d = ${d} n = ${n}`);
-		return cons(expression, view);
+ 		return cons(expression, view);
 	}
 	const answer = (expression) => {
         const a1 = car(expression);
