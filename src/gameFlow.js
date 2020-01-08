@@ -1,10 +1,14 @@
 import readlineSync from 'readline-sync';
-import { hello } from './'
 import { car, cdr } from '@hexlet/pairs';
 
 export const game = (question, getAnswer, title) => {
-	const name = hello(title);
-	for(let i = 0; i < 3; i++) {
+	console.log("Welcome to the Brain Games!");
+	console.log(title);
+	const name = readlineSync.question("May I have your name?");
+	console.log(`Hello, ${name}!`);
+
+	const numberOfGames = 3;
+	for(let i = 0; i < numberOfGames; i++) {
 		const pair = question();
 		const answer = car(pair);
 		const view = cdr(pair);
