@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import { brainPrime } from '../../gameRules';
+import brainPrime from '../../modules/prime';
 
 brainPrime();
