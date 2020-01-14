@@ -20,12 +20,13 @@ const isPrime = (num) => {
   return true;
 };
 
+const getQuestionAndAnswer = () => {
+  const question = getRandom(2);
+  const answer = isPrime(question) ? 'yes' : 'no';
+  return cons(question, answer);
+};
+
 export default () => {
-  const question = () => {
-    const expression = getRandom(2);
-    return cons(expression, expression);
-  };
-  const answer = (num) => (isPrime(num) ? 'yes' : 'no');
   const gameName = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  game(question, answer, gameName);
+  game(getQuestionAndAnswer, gameName);
 };
