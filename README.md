@@ -11,7 +11,7 @@ Brain even:
 https://asciinema.org/a/TPXxVQUf5qHnyY0bHpaaD0nq6
 
 Brain calc:
-https://asciinema.org/a/D2M8ybwi42S4qnZnBNsgNsbOD
+https://asciinema.org/a/sWEbmvNRNfhIp4taXxVP2aVur
 
 Brain gcd:
 https://asciinema.org/a/YfrVBOhipvlDbuj1AeIjarXL8
