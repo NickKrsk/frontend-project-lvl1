@@ -10,15 +10,15 @@ const getQuestionAndAnswer = () => {
   const n = getRandom(0, length);
 
   let question = '';
-  let an;
+  let sequenceSum;
   let answer;
   for (let i = 0; i < length; i += 1) {
-    an = a1 + d * i;
+    sequenceSum = a1 + d * i;
     if (i === n) {
-      answer = an;
+      answer = sequenceSum;
       question = `${question} .. `;
     } else {
-      question += `${question} ${an}`;
+      question += `${question} ${sequenceSum}`;
     }
   }
   return cons(question, answer);
