@@ -18,7 +18,7 @@ const getQuestionAndAnswer = () => {
       answer = currentElement;
       question = `${question} .. `;
     } else {
-      question += `${question} ${currentElement}`;
+      question = `${question} ${currentElement}`;
     }
   }
   return cons(question, answer);
