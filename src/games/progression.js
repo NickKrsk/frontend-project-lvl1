@@ -2,22 +2,20 @@ import { cons } from '@hexlet/pairs';
 import game from '../gameFlow';
 import getRandom from '../random';
 
+const lengthProgression = 10;
 const gameDescription = 'What number is missing in the progression?';
 const getQuestionAndAnswer = () => {
-  const length = 10;
   const firstElement = getRandom(0, 100);
   const diff = getRandom(0, 100);
-  const hiddenElementPosition = getRandom(0, length);
+  const hiddenElementPosition = getRandom(0, lengthProgression);
 
   let question = '';
-  let currentElement;
-  let answer;
-  for (let i = 0; i < length; i += 1) {
-    currentElement = firstElement + diff * i;
+  const answer = firstElement + diff * hiddenElementPosition;
+  for (let i = 0; i < lengthProgression; i += 1) {
     if (i === hiddenElementPosition) {
-      answer = currentElement;
       question = `${question} .. `;
     } else {
+      const currentElement = firstElement + diff * i;
       question = `${question} ${currentElement}`;
     }
   }

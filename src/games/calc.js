@@ -2,8 +2,9 @@ import { cons } from '@hexlet/pairs';
 import game from '../gameFlow';
 import getRandom from '../random';
 
+const operations = ['+', '-', '*'];
 const gameDescription = 'What is the result of the expression?';
-const chooseOperations = (operations) => operations[getRandom(0, operations.length - 1)];
+const chooseOperation = (operations) => operations[getRandom(0, operations.length - 1)];
 const calculate = (a, b, oper) => {
   switch (oper) {
     case '*':
@@ -18,12 +19,11 @@ const calculate = (a, b, oper) => {
 };
 
 const getQuestionAndAnswer = () => {
-  const operations = ['+', '-', '*'];
   const a = getRandom(0, 100);
   const b = getRandom(0, 100);
-  const oper = chooseOperations(operations);
-  const question = `${a} ${oper} ${b}`;
-  const answer = calculate(a, b, oper);
+  const operation = chooseOperation(operations);
+  const question = `${a} ${operation} ${b}`;
+  const answer = calculate(a, b, operation);
   return cons(question, answer);
 };
 
