@@ -4,7 +4,7 @@ import getRandom from '../random';
 
 const operations = ['+', '-', '*'];
 const gameDescription = 'What is the result of the expression?';
-const chooseOperation = (operations) => operations[getRandom(0, operations.length - 1)];
+const chooseOperation = () => operations[getRandom(0, operations.length - 1)];
 const calculate = (a, b, oper) => {
   switch (oper) {
     case '*':
