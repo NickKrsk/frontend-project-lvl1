@@ -24,7 +24,7 @@ const getQuestionAndAnswer = () => {
   const operation = chooseOperation(operations);
   const question = `${a} ${operation} ${b}`;
   const answer = calculate(a, b, operation);
-  return cons(question, answer);
+  return cons(question, String(answer));
 };
 
 export default () => {

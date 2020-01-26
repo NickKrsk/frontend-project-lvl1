@@ -12,7 +12,7 @@ export default (getQuestionAndAnswer, gameDescription) => {
   for (let i = 0; i < numberOfGames; i += 1) {
     const questionAndAnswer = getQuestionAndAnswer();
     const question = car(questionAndAnswer);
-    const correctAnswer = String(cdr(questionAndAnswer));
+    const correctAnswer = cdr(questionAndAnswer);
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('You answer:');
     if (correctAnswer !== userAnswer) {
